@@ -1,0 +1,251 @@
+/*
+    # screen resulation : 279px to 319px;
+    # devices: most of the smart phone in galaxy fold.
+ */
+ 
+ @media (min-width: 279px) and (max-width: 319px){
+           /* css start  */
+ *{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow-x: hidden;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+.header .navbar-toggler{
+        background: #08c;
+        border-radius: 0px;
+        padding: 10px;
+    }
+.header .navbar-toggler .fa-bars{
+        color: #000;
+        font-size: 16px;
+    }
+.banner h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin:  15px 0px;  
+    
+}
+.banner p{
+    font-size: 11px;
+}
+            /* css end  */
+
+}
+
+
+/*
+    # screen resulation : 320px to 480px;
+    # devices: most of the smart phone.
+ */
+ 
+ @media (min-width: 320px) and (max-width: 480px){
+           /* css start  */
+.header .navbar-toggler{
+        background: #08c;
+        border-radius: 0px;
+        padding: 10px;
+    }
+.header .navbar-toggler .fa-bars{
+        color: #000;
+        font-size: 16px;
+    }
+.banner h1{
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2em;
+    margin:  15px 0px;  
+    
+}
+.title h1{
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+    margin: 15px 0px;
+    text-transform: capitalize;
+}
+
+.inner-feature {
+    width: 100%;
+    padding: 20px 50px;
+    text-align: left;
+    margin: 10px auto;
+}
+.service ul li p{
+    font-size: 10px;
+    line-height: 1.7em;
+    color: #999;
+     margin: 0px 0px 0px 80px;
+
+}
+.time h4{
+    font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 20px;
+
+}
+.time h2{
+    font-size: 36px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #fff;
+
+}
+.project p{
+    font-size: 10px;
+    line-height: 1.2em;
+    font-weight: 500;
+    
+}
+.project h1{
+
+}
+            /* css end  */
+}
+
+/*
+    # screen resulation : 481px to 767px;
+    # devices: most of the high resulatuion mobile and low resulation tab.
+ */
+ @media (min-width: 481px) and (max-width: 767px){
+
+          /* css start  */
+ .header .navbar-toggler{
+        background: #08c;
+        border-radius: 0px;
+        padding: 10px;
+    }
+ .header .navbar-toggler .fa-bars{
+        color: #000;
+        font-size: 16px;
+    }
+.banner h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7em;
+    margin:  15px 0px;  
+    
+}
+.title h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    margin: 15px 0px;
+    text-transform: capitalize;
+}
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.service ul li p{
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #999;
+     margin: 0px 0px 0px 80px;
+
+}
+.time h4{
+    font-size: 20px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+.time h2{
+    font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+.project p{
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+
+}
+.project h1{
+    
+}
+           /* css end  */
+}
+
+
+/*
+    # screen resulation : 768px to 1024px;
+    # devices: most of the tab  and mini notebook.
+ */
+ @media (min-width: 768px) and (max-width: 1024px){
+      /* css start  */
+ .header .navbar-toggler{
+        background: #08c;
+        border-radius: 0px;
+        padding: 10px;
+    }
+ .header .navbar-toggler .fa-bars{
+        color: #000;
+        font-size: 16px;
+    }
+.banner h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7em;
+    margin:  15px 0px;  
+    
+}
+.title h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: #000;
+    margin: 15px 0px;
+    text-transform: capitalize;
+}
+.inner-feature {
+    width: 100%;
+    padding: 20px 50px;
+    text-align: left;
+    margin: 10px auto;
+}
+.service ul li p{
+    font-size: 14px;
+    line-height: 1.7em;
+    color: #999;
+     margin: 0px 0px 0px 80px;
+
+}
+.time h4{
+    font-size: 36px;
+    line-height: 1.7em;
+    font-weight: 600;
+    
+
+}
+.time h2{
+    font-size: 28px;
+    line-height: 1.2em;
+    font-weight: 700;
+    padding: 20px 0px;
+   
+}
+.project p{
+    font-size: 16px;
+    line-height: 1.2em;
+    font-weight: 500;
+   
+
+}
+      /* css end  */
+
+}
